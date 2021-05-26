@@ -30,6 +30,7 @@ public class ProductViewServiceFeignApplication {
 
 
     }
+
     @Bean
     public Sampler defaultSampler() {
         return Sampler.ALWAYS_SAMPLE;
